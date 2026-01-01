@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: auto;
+}
+a{
+    color: rgba(0, 0, 0, 0.507);
+    text-decoration: none;
+
+}
+#Username{
+    background-color:rgba(30, 143, 255, 0.234);
+    color: cornflowerblue;
+    border-radius: 25%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    height: 50vh;
+    
+
+
+}
+img{
+    transform: scale(2.5);
+}
+
+.left{
+    transform: scale(1.5);
+    font-size: 20px;
+    padding: 0;
+
+
+}
+#button{
+    padding: 50pxs;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.right{
+    
+}
